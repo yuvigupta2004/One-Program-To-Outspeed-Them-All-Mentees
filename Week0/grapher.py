@@ -53,4 +53,5 @@ if __name__ == '__main__':
     plt.xlabel('size of vector')
     plt.ylabel('time taken by respective methods')
     plt.legend()
-    plt.show()
+    plt.savefig('plot.png')
+    
